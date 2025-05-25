@@ -1,0 +1,18 @@
+.app-sidebar {
+  background: rgb(177, 168, 168);
+  display: flex;
+  position: fixed;
+  top: 50px;
+
+  height: 100vh;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  &__list {
+    margin-top: 16px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 40px;
+
+    padding: 0 24px;
+  }
+}
